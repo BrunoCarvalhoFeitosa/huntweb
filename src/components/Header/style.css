@@ -1,0 +1,21 @@
+header.main-header {
+    width: 100%;
+    height: auto;
+    background: #CAE1FF;
+}
+
+header.main-header .main-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header.main-header .main-logo img {
+    cursor: pointer;
+    animation: rotate360 3s infinite linear;
+}
+
+@keyframes rotate360 {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}

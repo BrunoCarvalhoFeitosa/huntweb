@@ -1,0 +1,27 @@
+section.container-product-info {
+    min-height: 76.8vh;
+}
+
+section.container-product-info .product-info {
+    max-width: 43.75rem;
+    height: 26.875rem;
+    margin: 2.25rem auto 0;
+    padding: 1.25rem;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: .3125rem;
+}
+
+section.container-product-info .product-info h2 {
+    font-size: 1.5rem;
+    text-decoration: underline #CAE1FF;
+    text-transform: uppercase;
+    color: #CAE1FF;
+}
+
+section.container-product-info .product-info p {
+    margin-top: 10px;
+    font-size: 0.85rem;
+    color: #333;
+    font-weight: bold;
+}

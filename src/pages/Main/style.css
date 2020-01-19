@@ -1,0 +1,81 @@
+section.container-product-list {
+    margin: 3.5rem 0;
+}
+
+section.container-product-list .product-list {
+    max-width: 43.75rem;
+    margin: 1.25rem auto 0;
+    padding: 0 1.25rem;
+}
+
+section.container-product-list .product-list article {
+    background: #fff;
+    border: .0625rem solid #ddd;
+    border-radius: .3125rem;
+    padding: 1.25rem;
+    margin-bottom: 20px;
+}
+
+section.container-product-list .product-list article h2 {
+    font-size: 1.5rem;
+    text-decoration: underline #CAE1FF;
+    text-transform: uppercase;
+    color: #CAE1FF;
+}
+
+section.container-product-list .product-list article h3 {
+    font-size: 0.85rem;
+    color: #333;
+}
+
+section.container-product-list .product-list article a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: .9375rem;
+    background: #CAE1FF;
+    text-decoration: none;
+    font-weight: bold;;
+    color: #333;
+    padding: .375rem;
+    transition: .2s ease;
+}
+
+section.container-product-list .product-list article a:hover {
+    box-shadow: 0 .25rem #333;
+}
+
+section.container-product-list .product-list article a:active {
+    transform: translateY(.125rem);
+}
+
+section.container-product-list .product-list .product-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.25rem;
+}
+
+section.container-product-list .product-list .product-actions button {
+    padding: .625rem 2rem;
+    border: 0;
+    border-radius: .3125rem;
+    background: #CAE1FF;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+}
+
+section.container-product-list .product-list .product-actions button[disabled] {
+    opacity: .5;
+    cursor: default;
+}
+
+section.container-product-list .product-list .product-actions button[disabled]:hover {
+    opacity: .5;
+}
+
+section.container-product-list .product-list .product-actions button:hover {
+    opacity: .7;
+}
